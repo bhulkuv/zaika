@@ -44,17 +44,17 @@ https://matchthemes.com
   --body-font-size: 16px;
   --body-line-height: 1.5;
   --headings-font: Lora, serif;
-  --headings-color: #9867c5;
-  --primary-color: #441c44;
-  --extra-color1: #441c44;
-  --extra-color2: #441c44;
+  --headings-color: #284139;
+  --primary-color: #809076;
+  --extra-color1: #bb6830;
+  --extra-color2: #f8d794;
   --menu-normal-color: #ffffff;
-  --menu-hover-color: #9867c5;
+  --menu-hover-color: #bb6830;
   --submenu-background-color: #9867c5;
   --submenu-normal-color: #252525;
   --submenu-hover-color: #9867c5;
   --footer-background-color: #000000;
-  --footer-color: #999999;
+  --footer-color: #111a19;
   --footer-title-color: #ffffff;
   --headings-h1-size: 54px;
   --headings-h2-size: 48px;
@@ -100,6 +100,7 @@ td {
   margin: 0;
   padding: 0;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -302,7 +303,11 @@ body {
   -webkit-overflow-scrolling: touch;
   text-rendering: optimizeLegibility;
   font-family: var(--body-font);
-  background: var(--body-background);
+  background-image: url("./images/background-img.webp");
+  background-position: left top;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
   color: var(--body-color);
   font-size: var(--body-font-size);
   line-height: var(--body-line-height);
@@ -1332,6 +1337,11 @@ a.social-skype:hover {
 .home-section {
   margin-bottom: 108px;
   margin-top: 2rem;
+  background-image: url("./images/background-img.webp");
+  background-position: left top;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
 }
 .home-section-b54 {
   margin-bottom: 54px;
@@ -3005,7 +3015,7 @@ footer a,
   font-size: 36px;
 }
 .white {
-  color: #ffffff;
+  color: #bb6830;
 }
 .white:before,
 .white:after {
