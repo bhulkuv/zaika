@@ -436,7 +436,11 @@ ul,
 ol {
   margin-bottom: 24px;
 }
-
+p {
+  margin-bottom: 24px;
+  text-align: justify;
+  text-justify: inter-word;
+}
 /* definition lists */
 dl dt {
   margin-bottom: 0;
@@ -856,7 +860,7 @@ body.has-active-menu {
 /***** END MODAL WINDOW ******/
 
 .logo img {
-  width: 120px;
+  width: 150px;
 }
 
 .logo-1,
@@ -1336,7 +1340,7 @@ a.social-skype:hover {
 
 .home-section {
   margin-bottom: 108px;
-  margin-top: 2rem;
+
   background-image: url("./images/background-img.webp");
   background-position: left top;
   background-size: auto;
@@ -3087,7 +3091,7 @@ footer a,
   color: #ffffff;
   border: 2px solid var(--primary-color);
   text-transform: uppercase;
-  padding: 16px 24px;
+  padding: 16px 16px;
   background: var(--primary-color);
   cursor: pointer;
 }
@@ -3132,7 +3136,7 @@ footer a,
   color: #ffffff;
   text-transform: uppercase;
   border: 2px solid #ffffff;
-  padding: 4px;
+  padding: 16px 16px;
 }
 .slider-btn:hover {
   border-bottom: 2px solid var(--primary-color);
@@ -4418,9 +4422,4 @@ MEDIA QUERIES
     margin-left: 0;
     margin-top: 8px;
   }
-}
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-  border-radius: 68px;
 }
